@@ -1,0 +1,32 @@
+//Kode soal D
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+int main(int tampilan){
+	string ussername, password;
+	cout<<"==== Login User ===="<<endl;
+	cout<<"Masukkan Ussername : "; cin>>ussername;
+	cout<<"Masukkan Password : "; cin>>password;
+	if(ussername == "admin" && password == "164"){
+		cout<<"Login Berhasil "<<endl<<endl<<"Hai, "<<ussername<<" Selamat Datang";
+	}else{
+		cout<<"Maaf, Login Gagal Coba lagi!";
+	}
+
+	
+	cout<<endl;
+	}
+	
+	int tampilan(int main) {
+		string sistem;
+		cout<<"\n Sistem Input Barang (min 10): ";
+		cout<<"\n Sistem Penghapusan Barang: ";
+		cout<<"\n Sistem Menghitung Total semua Belanja: ";
+		cout<<"\n Sistem Penghapusan Barang: ";
+		cout<<"Pilih: ";
+		cin>>sistem;
+	system("cls");
+	cout<<"Selesai"<<endl;
+}
